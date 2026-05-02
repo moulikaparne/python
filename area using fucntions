@@ -1,0 +1,23 @@
+def sq():
+    s = int(input("enter the side"))
+    print("Area:",s*s)
+def circle(r):
+    print("Area:",r* r* 3.14)
+def rectangle(a,b):
+    print("Area",a*b)
+while(True):
+    print("1.sqaure")
+    print("2.circle")
+    print("3.rectangle")
+    print("exit")
+    
+    ch=int(input("enter your choice"))
+    if ch==1:
+        sq()
+    elif ch==2:
+        circle(10)
+    elif ch==3:
+        rectangle(1,20)
+    else:
+        break 
+    
