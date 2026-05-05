@@ -1,0 +1,30 @@
+class ace:
+     def set_dim(self, a,b,c,name):
+         self.tot=a+b+c
+         self.tot=name
+     def display(self):
+         print("name:",self.name)
+         print("total:",self.tot)
+         
+class bvrit:
+    def set_dim(self, a,b,name):
+        self.tot=a+b
+        self.tot=name
+    def display(self):
+        print("name:", self.name)
+        print("total:", self.tot)
+      
+
+a=abc()
+a2=abc()
+b=abc()
+b2=abc()
+a.set_dim(20,20,80,"anushka")
+a2.set_dim(30,20,"priya")
+b.set_dim(30,40,10,"ramya")
+b2.set_dim(61,71,"sowmya")
+a.display()
+a2.display()
+b.show()
+b2.show()
+
