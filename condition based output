@@ -1,0 +1,12 @@
+a=10
+x=" "
+if a<12 or a<10:
+    a=a+2
+    if a==12 and a+1==13:
+        print("a"*a)
+    else:
+        x=x+'5'
+        if x:
+            print(x)
+        else:
+            print('x')
