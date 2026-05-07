@@ -1,0 +1,8 @@
+a=3
+print(a==10)
+a=[]
+if a:
+    print("hi")
+else:
+    print("bye")
+
