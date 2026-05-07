@@ -1,0 +1,5 @@
+def moulika(x):
+    return len(x)
+def abc(a):
+    print(a*2)
+abc((moulika("kavitha")))
